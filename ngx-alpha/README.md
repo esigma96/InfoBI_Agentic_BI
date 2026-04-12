@@ -1,32 +1,33 @@
-📌 Project Overview
+# Agentic BI
+
+This is an AI agent built in LangGraph that can perform data analysis on a provided dataset. It is to accompany my Youtube video to showcase some advanced LangGraph techniques.
+
+Take a look at the below video for a demo:
 
 
-<img width="700" height="441" alt="image" src="https://github.com/user-attachments/assets/2944f1ed-ac71-4aa3-a6ed-a4a1e17544f6" />
 
-This project develops a stock recommendation system for the Nigerian Exchange (NGX) by combining historical price data with social sentiment signals.
 
-⚙️ Methodology
 
-Data collection: market prices + sentiment scores
+## Getting Setup
 
-Feature engineering: returns, sentiment thresholds
+If you want to use the same dataset as me, you can download it from Kaggle below:
 
-Signal generation: rule-based buy/sell classification
+https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets/data 
 
-📊 Key Insight
+Otherwise feel free to upload your own dataset!
 
-Positive sentiment combined with upward price movement improves short-term predictive signals in NGX equities.
+Youll then need to install the requirements by running the following command:
 
-🔗 Outputs
+```bash
+pip install -r requirements.txt
+```
 
-Recommendation dataset
+and run the streamlit dashboard by running the following command:
 
-Visual trend analysis
+```bash
+streamlit run data_analysis_streamlit_app.py --server.maxUploadSize 2000
+```
 
-🛠 Tools Used
+Update the OpenAI API key in the data_analysis_streamlit_app.py file with your own.
 
-Python (Pandas, Matplotlib)
-
-Data Analysis
-
-Financial Modeling
+Enjoy!
