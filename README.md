@@ -1,10 +1,10 @@
 # Agentic BI
 
-This is an AI agent built in LangGraph that can perform data analysis on a provided dataset. It is to accompany my Youtube video to showcase some advanced LangGraph techniques.
+<p align="center">
+  <img src="https://miro.medium.com/1*QR24nhdrusLYio-64CGhDQ.png" width="600" height="400"/>
+</p>
 
-Take a look at the below video for a demo:
-
-
+This is an AI agent built in LangGraph that can perform data analysis on a provided dataset. 
 
 
 
