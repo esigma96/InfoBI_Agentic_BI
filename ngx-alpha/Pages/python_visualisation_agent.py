@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import json
 from langchain_core.messages import HumanMessage, AIMessage
-from Pages.backend import PythonChatbot, 
+from Pages.backend import PythonChatbot
 from Pages.data_models import InputData
 import pickle
 
