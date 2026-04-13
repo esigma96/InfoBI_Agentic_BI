@@ -114,6 +114,13 @@ with tab1:
         st.info("No CSV files available. Please upload some files first.")
 
 with tab2:
+    # ---------- SAFE SESSION INIT ----------
+    if "visualisation_chatbot" not in st.session_state:
+        st.session_state.visualisation_chatbot = PythonChatbot()
+
+    if "selected_files" not in st.session_state:
+        st.session_state.selected_files = []
+
     def on_submit_user_query():
         user_query = st.session_state['user_input']
         input_data_list = [
