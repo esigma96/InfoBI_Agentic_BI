@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import json
 from langchain_core.messages import HumanMessage, AIMessage
-from .backend import PythonChatbot, InputData
+from .prompts.backend import PythonChatbot, InputData
 import pickle
 
 # Create uploads directory if it doesn't exist
