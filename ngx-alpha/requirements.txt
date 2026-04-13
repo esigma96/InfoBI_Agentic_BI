@@ -3,8 +3,8 @@ streamlit
 langchain-core
 scikit-learn
 plotly
-langgraph
-langchain-openai
+langchain-experimental==0.0.65
 langchain==0.2.16
 langchain-core==0.2.38
-langchain-experimental==0.0.65
+langchain-openai
+langgraph==0.0.40
