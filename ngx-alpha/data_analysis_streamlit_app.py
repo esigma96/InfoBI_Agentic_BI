@@ -1,8 +1,8 @@
 import os
 os.environ["STREAMLIT_SERVER_MAX_UPLOAD_SIZE"] = "2000"
-os.environ["OPENAI_API_KEY"]
-import streamlit as st
 
+import streamlit as st
+api_key = os.getenv("OPENAI_API_KEY")
 # Set Streamlit to wide mode
 st.set_page_config(layout="wide", page_title="Main Dashboard", page_icon="📊")
 
