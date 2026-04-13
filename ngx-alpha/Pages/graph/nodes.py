@@ -6,7 +6,7 @@ from typing import Literal
 import os
 
 from .tools import complete_python_task
-from ..state import AgentState
+from .state import AgentState
 
 # LLM
 llm = ChatOpenAI(model="gpt-4o", temperature=0)
