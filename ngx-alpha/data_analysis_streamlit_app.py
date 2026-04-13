@@ -1,6 +1,6 @@
 import os
 os.environ["STREAMLIT_SERVER_MAX_UPLOAD_SIZE"] = "2000"
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"]
 import streamlit as st
 
 # Set Streamlit to wide mode
