@@ -20,7 +20,7 @@ IMAGE_DIR = os.path.join(BASE_DIR, "..", "images/plotly_figures/pickle")
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-st.title("Data Analysis Dashboard")
+st.title("Agentic BI - InfoBI")
 
 
 # -----------------------------
