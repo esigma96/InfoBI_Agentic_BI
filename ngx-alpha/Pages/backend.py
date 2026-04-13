@@ -1,7 +1,7 @@
 from langgraph.graph import StateGraph, END
 
 from .graph.nodes import call_model, call_tools, route_to_tools
-from Pages.graph.state import AgentState
+from .graph.state import AgentState
 
 
 def build_graph():
