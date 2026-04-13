@@ -49,7 +49,7 @@ def call_model(state: AgentState):
         content=f"The following data is available:\n{summary}"
     )
 
-    state["messages"] = [data_msg] + state["messages"]
+    state["messages"] = [data_msg] + (state.get("messages") or [])
 
     response = model.invoke(state)
 
